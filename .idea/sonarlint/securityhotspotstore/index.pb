@@ -10,3 +10,13 @@ W
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+\
+,src/main/java/com/jakobniinja/Paragraph.java,2\3\23ee0db77a3d0ae9a5563b3346039ec154927d27
+c
+3src/test/java/com/jakobniinja/InitialParagraph.java,9\1\911fb413041148ddbce5053b03d7dedc806a626f
+g
+7src/test/java/com/jakobniinja/InitialParagraphTEst.java,3\8\387dd3f3039481cceab66813f390c05afc04fc8a
+g
+7src/test/java/com/jakobniinja/InitialParagraphTest.java,0\4\04cd6ed186d63bfab58ab06b3f360db10bf22812
+c
+3src/main/java/com/jakobniinja/InitialParagraph.java,b\1\b10babed72a7d5bf600172652837e7a408c7baa7
