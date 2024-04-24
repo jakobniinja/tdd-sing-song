@@ -14,8 +14,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junit.jupiter>5.11.0-M1</junit.jupiter>
     <mockito>5.11.0</mockito>
-    <jacoco.maven>0.8.11</jacoco.maven>
-    <versions.maven>2.13.0</versions.maven>
+    <jacoco.maven>0.8.12</jacoco.maven>
+    <versions.maven>2.16.2</versions.maven>
   </properties>
 
   <dependencyManagement>
