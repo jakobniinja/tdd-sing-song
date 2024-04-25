@@ -1,5 +1,6 @@
 package com.jakobniinja;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class InitialParagraph implements Paragraph {
@@ -12,6 +13,10 @@ public class InitialParagraph implements Paragraph {
 
   @Override
   public List<String> generateContent() {
-    return List.of();
+    return new ArrayList<>() {{
+      add("There was an old lady who swallowed a " + animal + ".");
+      add("I don't know why she swallowed a " + animal + " - perhaps she'll die!");
+      add("");
+    }};
   }
 }
