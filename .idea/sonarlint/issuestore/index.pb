@@ -18,3 +18,7 @@ g
 7src/test/java/com/jakobniinja/InitialParagraphTest.java,0\4\04cd6ed186d63bfab58ab06b3f360db10bf22812
 c
 3src/main/java/com/jakobniinja/InitialParagraph.java,b\1\b10babed72a7d5bf600172652837e7a408c7baa7
+l
+<src/test/java/com/jakobniinja/IntermediateParagraphTest.java,7\9\7907ed12ba39ee6a28fc3e10841cf213670a29bd
+h
+8src/main/java/com/jakobniinja/IntermediateParagraph.java,d\a\daec335b223b8dd03379c29ad68496a321391273

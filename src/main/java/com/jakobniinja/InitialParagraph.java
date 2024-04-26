@@ -5,7 +5,7 @@ import java.util.List;
 
 public class InitialParagraph implements Paragraph {
 
-  protected String animal;
+  protected final String animal;
 
   public InitialParagraph(String animal) {
     this.animal = animal;
