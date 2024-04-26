@@ -1,5 +1,6 @@
 package com.jakobniinja;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class IntermediateParagraph implements Paragraph {
@@ -12,6 +13,9 @@ public class IntermediateParagraph implements Paragraph {
 
   @Override
   public List<String> generateContent() {
-    return List.of();
+    return new ArrayList() {{
+      add(introVerse);
+      add("There was an old lady who swallowed a " + animal);
+    }};
   }
 }
