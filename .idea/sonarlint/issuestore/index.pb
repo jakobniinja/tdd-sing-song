@@ -22,3 +22,9 @@ l
 <src/test/java/com/jakobniinja/IntermediateParagraphTest.java,7\9\7907ed12ba39ee6a28fc3e10841cf213670a29bd
 h
 8src/main/java/com/jakobniinja/IntermediateParagraph.java,d\a\daec335b223b8dd03379c29ad68496a321391273
+e
+5src/test/java/com/jakobniinja/FinalParagraphtest.java,2\2\2259868c799af6f91662e04add75944e7a39cab4
+e
+5src/test/java/com/jakobniinja/FinalParagraphTest.java,9\2\92d17f12b015027f4063d38a39324b45d4d5b3cf
+a
+1src/main/java/com/jakobniinja/FinalParagraph.java,c\0\c0cf95a6aab935b7adca8a5fb2790ecd5a520728
