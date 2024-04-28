@@ -1,5 +1,6 @@
 package com.jakobniinja;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -13,7 +14,7 @@ class IntermediateParagraphTest {
 
   @BeforeEach
   void setUp() {
-    ip = new IntermediateParagraph();
+    ip = new IntermediateParagraph("Butterfly", "The green frog jumped over the ...", "Frog", "Tiger");
   }
 
   @Test
@@ -22,12 +23,17 @@ class IntermediateParagraphTest {
   }
 
   @Test
+  void testPrevious() {
+    assertEquals(ip.previousAnimal[0], "Frog");
+  }
+
+  @Test
   void testTiger() {
     assertTrue(Arrays.asList(ip.previousAnimal).contains("Tiger"));
   }
 
   @Test
-  void testDragon() {
-    assertTrue(ip.generateContent().toString().contains("swallowed a Dragon"));
+  void testContent() {
+    assertTrue(ip.generateContent().toString().contains("swallowed a Butterfly"));
   }
 }

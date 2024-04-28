@@ -5,11 +5,17 @@ import java.util.List;
 
 public class IntermediateParagraph implements Paragraph {
 
-  final String animal = "Frog";
+  String animal;
 
-  final String introVerse = "The green frog jumped over the ...";
+  String introVerse;
 
-  final String[] previousAnimal = new String[]{"Tiger", "Dragon"};
+  String[] previousAnimal;
+
+  public IntermediateParagraph(String animal, String introVerse, String... previousAnimal) {
+    this.animal = animal;
+    this.introVerse = introVerse;
+    this.previousAnimal = previousAnimal;
+  }
 
   @Override
   public List<String> generateContent() {
