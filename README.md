@@ -1,4 +1,4 @@
-# tdd-sing-song
+# Tdd-sing-song
 
 ## TODO:
 
