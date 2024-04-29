@@ -28,3 +28,15 @@ e
 5src/test/java/com/jakobniinja/FinalParagraphTest.java,9\2\92d17f12b015027f4063d38a39324b45d4d5b3cf
 a
 1src/main/java/com/jakobniinja/FinalParagraph.java,c\0\c0cf95a6aab935b7adca8a5fb2790ecd5a520728
+d
+4src/test/java/com/jakobniinja/SongGeneratorTest.java,2\0\204d7c9897b4d5702d8775139f8248c5139adcc2
+`
+0src/main/java/com/jakobniinja/SongGenerator.java,5\8\583be77c4e9a4b81518f94fd638cae34c5d65f09
+[
++src/test/java/com/jakobniinja/Songtest.java,f\a\faaaf112032cbb5ed9854d795a2281274293b2bb
+[
++src/test/java/com/jakobniinja/SongTest.java,c\b\cb103e7b45c0f1aa28c7ae43ed9ff01c7f1a60bb
+W
+'src/test/java/com/jakobniinja/Song.java,1\8\18d91160c17cb7e10826fddf9f4c7045569f5394
+W
+'src/main/java/com/jakobniinja/Song.java,5\2\52ecc8babf35ceb9a221acaad2be0abfb4159b11
