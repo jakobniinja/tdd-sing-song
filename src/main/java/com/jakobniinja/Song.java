@@ -1,6 +1,7 @@
 package com.jakobniinja;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Song {
 
@@ -15,5 +16,22 @@ public class Song {
     return "Song{" +
         "verses=" + verses +
         '}';
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    Song song = (Song) o;
+    return Objects.equals(verses, song.verses);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hashCode(verses);
   }
 }
