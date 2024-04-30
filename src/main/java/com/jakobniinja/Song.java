@@ -1,5 +1,6 @@
 package com.jakobniinja;
 
+import java.io.PrintStream;
 import java.util.List;
 import java.util.Objects;
 
@@ -33,5 +34,9 @@ public class Song {
   @Override
   public int hashCode() {
     return Objects.hashCode(verses);
+  }
+
+  public void printOn(PrintStream printStream) {
+    verses.forEach(printStream::println);
   }
 }
