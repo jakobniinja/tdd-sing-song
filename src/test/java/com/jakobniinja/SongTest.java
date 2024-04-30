@@ -19,6 +19,11 @@ class SongTest {
 
   private Song song;
 
+
+  private static final String RED_ROSE = "Roses are red";
+
+  private static final String BLUE_VIOLET = "Violets are blue";
+
   @BeforeEach
   void setUp() {
     System.setOut(new PrintStream(outContent));
@@ -39,7 +44,7 @@ class SongTest {
   @Test
   void testToString() {
     addRoses();
-    assertEquals("Song{verses=[Roses are red, Violets are blue]}", song.toString());
+    assertEquals("Song{verses=[" + RED_ROSE + ", " + BLUE_VIOLET + "]}", song.toString());
   }
 
   @Test
@@ -75,11 +80,11 @@ class SongTest {
   void testPrint() {
     addRoses();
     song.printOn(new PrintStream(outContent));
-    assertTrue(outContent.toString().contains("Roses are red"));
+    assertTrue(outContent.toString().contains(RED_ROSE));
   }
 
   private void addRoses() {
-    verse.add("Roses are red");
-    verse.add("Violets are blue");
+    verse.add(RED_ROSE);
+    verse.add(BLUE_VIOLET);
   }
 }
