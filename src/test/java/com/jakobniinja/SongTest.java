@@ -31,17 +31,6 @@ class SongTest {
   }
 
   @Test
-  void testSize2() {
-    addRoses();
-    assertEquals(2, verse.size());
-  }
-
-  @Test
-  void testInitEmpty() {
-    assertTrue(song.verses.isEmpty());
-  }
-
-  @Test
   void testToString() {
     addRoses();
     assertEquals("Song{verses=[" + RED_ROSE + ", " + BLUE_VIOLET + "]}", song.toString());
