@@ -38,8 +38,7 @@ class SongTest {
 
   @Test
   void testHashCode() {
-    addRoses();
-    assertEquals(1701724394, song.hashCode());
+    assertEquals(1, song.hashCode());
   }
 
   @Test

@@ -30,3 +30,7 @@ a
 +src/test/java/com/jakobniinja/SongTest.java,c\b\cb103e7b45c0f1aa28c7ae43ed9ff01c7f1a60bb
 W
 'src/main/java/com/jakobniinja/Song.java,5\2\52ecc8babf35ceb9a221acaad2be0abfb4159b11
+d
+4src/test/java/com/jakobniinja/SongGeneratorTest.java,2\0\204d7c9897b4d5702d8775139f8248c5139adcc2
+`
+0src/main/java/com/jakobniinja/SongGenerator.java,5\8\583be77c4e9a4b81518f94fd638cae34c5d65f09
