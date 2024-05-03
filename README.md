@@ -1,5 +1,7 @@
 # Tdd-sing-song
 
+## Status: Project Complete
+
 ## TODO:
 
 - ~~add tdd template to github description~~
